@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(198, 175, 175);
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.link1 {
+  margin-left: 30px;
+}
+
+.deals {
+  margin-left: 20px;
+}
+
+.Help {
+  margin-left: 20px;
+}
+
+.sell {
+  margin-left: 550px;
+}
+
+.watch {
+  margin-left: 20px;
+}
+
+.navbar2{
+  height: 80px;
+  width: 100%;
+  background-color:#FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(198, 175, 175);
+}
+
+.h1{
+  display: flex;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.h11{
+  color: red;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.h12{
+  color: blue;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.h13{
+  color: yellow;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.h14{
+  color: green;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.shop{
+  margin-left: 30px;
+}
+
+.inputbox input{
+  height: 40px;
+  width: 600px;
+  margin-left: 30px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.btn button{
+  height: 45px;
+  width: 170px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.advance{
+  opacity: 0.7;
+  margin-left: 20px;
+}
+
+.advance:hover{
+  color: blue;
+  opacity: 1;
+}
+
+.navbar3{
+  height: 30px;
+  width: 100%;
+ background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+}
+.listitems .display {
+  list-style: none;
+  
+ display: flex;
+ 
+}
+.listitems .display li{
+  margin-left: 35px;
+  opacity: 0.7;
+}
+.listitems .display li:hover{
+  color: blue;
+  opacity: 1;
+}
+
+.hero {
+  background-image: url("c:\Users\Lenovo\Desktop\ebay\e-bay\public\image\banner-2.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 70%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fav h1{
+  color: #ff8800;
+  font-size: 35px;
+  font-weight: 800;
+}
