@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar2 = () => {
   return (
-    <div className="navbar2">
+    <section className="navbar2">
       <div className="h11">e</div>
       <div className="h12">b</div>
       <div className="h13">a</div>
@@ -19,7 +19,7 @@ const Navbar2 = () => {
       <div className="advance">
         <p>Advanced</p>
       </div>
-    </div>
+    </section>
   );
 }
 

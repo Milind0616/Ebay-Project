@@ -12,7 +12,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="hero">
+      <section className="hero">
 
       <div className="fav1">
         <div className="fav">
@@ -25,7 +25,10 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      </div>
+        <footer className="footer">
+            <p>include terms and conditions</p>
+        </footer>
+      </section>
     </>
   );
 };

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <section className="navbar">
             <div className="link">
                 <div className="link1">
                     <p>Hi!<a href="#">Sign in</a> or <a href="#">register</a></p>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <p>My ebay <i className="fa-solid fa-angle-down"></i></p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
