@@ -10,7 +10,6 @@ import Product from './component/Product.jsx'
 import Banner from './component/Banner.jsx'
 import Lastbanner from './component/Lastbanner.jsx'
 import Footer from './component/Footer.jsx'
-import Help from './anotherpages/Help.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -24,7 +23,5 @@ createRoot(document.getElementById('root')).render(
     <Banner />
     <Lastbanner />
     <Footer />
-    <Help/>
-    
   </StrictMode>,
 )
