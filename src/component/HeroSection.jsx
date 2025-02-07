@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const HeroSection = () => {
   useEffect(() => {
     console.log("HeroSection mounted!");
-    document.title = "Hero Section Loaded";
+    document.title = "E-bay";
 
     return () => {
       console.log("HeroSection unmounted!");
@@ -25,9 +25,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-        <footer className="footer">
-            <p>include terms and conditions</p>
-        </footer>
       </section>
     </>
   );
