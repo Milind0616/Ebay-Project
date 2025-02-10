@@ -2,6 +2,21 @@ import React from 'react'
 
 
 const Navbar = () => {
+    const [open, setOpen] = React.useState(false);
+    const dropdownRef = React.useRef(null);
+
+    React.useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setOpen(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
     return (
         <section className="navbar">
             <div className="link">
@@ -23,10 +38,53 @@ const Navbar = () => {
                 <div className="sell">
                     <p>Sell</p>
                 </div>
-                <div className="watch">
+                {/* <div className="watch">
                     <p>Watchlist <i className="fa-solid fa-angle-down"></i></p>
+                </div> */}
+                <div className="watch" ref={dropdownRef}>
+                    <p onClick={() => setOpen(!open)}>Watchlist<i className="fa-solid fa-angle-down"></i></p>
+                    {open && (
+                        <ul className="menu">
+                            <li className="links">
+                                <button onClick={() => alert("Menu 1 clicked")}>Menu 1</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                            <li className="links">
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                            </li>
+                        </ul>
+                    )}
                 </div>
-                <div className="watch">
+                <div className="watch1">
                     <p>My ebay <i className="fa-solid fa-angle-down"></i></p>
                 </div>
             </div>
@@ -35,3 +93,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
