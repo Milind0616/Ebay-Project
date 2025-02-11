@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -458,6 +459,10 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.Card:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 .Card img {
   width: 100%;
   /* Responsive image */

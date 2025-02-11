@@ -52,34 +52,34 @@ const Navbar = () => {
                                 <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 3</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 4</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 5</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 6</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 7</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 8</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 9</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 10</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 11</button>
                             </li>
                             <li className="links">
-                                <button onClick={() => alert("Menu 2 clicked")}>Menu 2</button>
+                                <button onClick={() => alert("Menu 2 clicked")}>Menu 12</button>
                             </li>
                         </ul>
                     )}

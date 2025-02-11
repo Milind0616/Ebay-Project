@@ -11,8 +11,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
     <Navbar2 />
-    <App />
-    
-    
+    <App /> 
   </StrictMode>,
 )
