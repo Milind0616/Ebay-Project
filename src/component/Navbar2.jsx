@@ -1,26 +1,41 @@
-import React from 'react';
+import React from "react";
 
 const Navbar2 = () => {
   return (
-    <section className="navbar2">
-      <div className="h11">e</div>
-      <div className="h12">b</div>
-      <div className="h13">a</div>
-      <div className="h14">y</div>
-      <div className="shop">
-        <p> Shop by<br />Category <i className="fa-solid fa-angle-down"></i></p>
+    <section className="flex items-center justify-center h-20 w-full bg-white border-b-2 border-gray-300">
+      {/* eBay Logo */}
+      <div className="flex text-5xl font-extrabold space-x-1 ml-6">
+        <span className="text-red-600">e</span>
+        <span className="text-blue-600">b</span>
+        <span className="text-yellow-500">a</span>
+        <span className="text-green-600">y</span>
       </div>
-      <div className="inputbox">
-        <input type="text" placeholder=" Search for anything" />
+
+      {/* Shop by Category */}
+      <div className="ml-5 text-lg cursor-pointer hover:text-gray-100">
+        <p>
+          Shop by <br /> Category <i className="fa-solid fa-angle-down"></i>
+        </p>
       </div>
-      <div className="btn">
-        <button>Search</button>
+
+      {/* Search Bar */}
+      <div className="flex items-center ml-8">
+        <input
+          type="text"
+          placeholder="Search for anything"
+          className="h-10 w-[600px] px-5 text-lg border border-gray-400 rounded-full outline-none"
+        />
+        <button className="ml-2 h-11 w-40 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700">
+          Search
+        </button>
       </div>
-      <div className="advance">
-        <p>Advanced</p>
+
+      {/* Advanced Search */}
+      <div className="ml-6 text-lg text-gray-600 cursor-pointer hover:text-blue-600 transition-opacity opacity-70 hover:opacity-100">
+        Advanced
       </div>
     </section>
   );
-}
+};
 
 export default Navbar2;
